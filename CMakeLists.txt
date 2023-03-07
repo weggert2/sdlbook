@@ -36,3 +36,5 @@ target_compile_options(${PROJECT_NAME} PRIVATE
         /WX
     >
 )
+
+target_link_libraries(${PROJECT_NAME} SDL2)
